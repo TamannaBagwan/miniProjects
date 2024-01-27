@@ -1,0 +1,18 @@
+.like-button {
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.like-button:hover {
+  border-color: rgb(241, 9, 86);
+  color: rgb(241, 9, 86);
+}
+
+.like-button.liked {
+  color: white;
+  background-color: rgb(241, 9, 86);
+  border-color: rgb(241, 9, 86);
+}
