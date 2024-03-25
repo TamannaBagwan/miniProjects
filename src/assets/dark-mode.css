@@ -1,0 +1,26 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px;
+    background-color: rgb(171, 96, 240);
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: 20px;
+    height: 80vh;
+  }
+  
+  .dark-mode {
+    background-color: rgb(46, 45, 45);
+    color: #fff;
+  }
+  

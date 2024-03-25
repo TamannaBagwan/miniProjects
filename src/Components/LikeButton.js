@@ -13,7 +13,7 @@ const LikeButton = () => {
       className={`like-button ${likeState}`}
       onClick={handleLike}
     >
-      {likeState === 'liked' ? <span >&#x2764; Liked! </span>  : 'Like'}
+      {likeState === 'liked' ? <span> &#x2764; Liked! </span>  : 'Like'}
     </button>
   );
 };
