@@ -1,25 +1,13 @@
-import { useState } from "react";
-import Header from "./Login/Header";
-import Login from "./Login/Login";
-import List from "./Login/List";
-import LikeButton from './Components/LikeButton'
-import DarkMode from "./Components/DarkMode";
+import React from 'react'
+import Timer from './Components/Timer'
+import QuizApp from './Components/QuizApp'
 
-
-
-export default function App() {
-  // const [isList, setisList] = useState()
-  // const handleSubmit=() => {
-  //   setisList(true)
-  
+const App = () => {
   return (
-    <>
-      {/* {!isList && <Login handleSubmit={handleSubmit}/>}
-      {isList && <List handleSubmit={handleSubmit}/>}
-      <LikeButton/> */}
-      <Login/>
-      {/* <DarkMode/> */}
-     
-    </>
+    <div>
+      <QuizApp/>
+    </div>
   )
 }
+
+export default App
