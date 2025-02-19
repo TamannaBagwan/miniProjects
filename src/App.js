@@ -1,13 +1,12 @@
-import React from 'react'
-import Timer from './Components/Timer'
-import QuizApp from './Components/QuizApp'
+import CrudApp from "./components/CrudApp";
+import Posts from "./components/Posts";
 
-const App = () => {
+const App=()=>{
   return (
     <div>
-      <QuizApp/>
+    <Posts/>
+    {/* <CrudApp/> */}
     </div>
   )
 }
-
-export default App
+export default App;
